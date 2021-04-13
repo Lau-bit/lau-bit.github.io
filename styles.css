@@ -52,7 +52,7 @@ li a {
   display:block;
   color: white;
   text-align: center;
-  padding: 16px 6px;
+  padding: 6px 6px;
   text-decoration: none;
 }
 
@@ -64,7 +64,7 @@ li a {
 	}
 	
 	h2 {
-		 font-size: 18px; padding: 6px;
+		 font-size: 18px; padding-bottom: 0px;
 	}
 table, th, td {
 		font-size:11px;
@@ -85,7 +85,7 @@ p {
 
 
 h1 {
-	color:white; text-align: center;
+	color:white; text-align: center; position: relative; bottom: 5px;
 }
 
 h3 {
@@ -98,8 +98,8 @@ h4 {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   overflow: hidden;
   background-color: green;
   
@@ -154,7 +154,7 @@ background-color: darkslategray;
 }	
 
 .col-sm-12b {
-	background-color: green; height: 100px; 
+	background-color: green; height: 50px; 
 	border-bottom: 1px solid black;
 	
 }
