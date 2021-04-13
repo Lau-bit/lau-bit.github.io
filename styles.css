@@ -7,23 +7,28 @@
 
 
 
-@media screen and (max-width:1400px) {
-	.col-lg-2 {
+
+
+	@media screen and (max-width:6600px) {
+
+	table, th, td {
+		font-size:16px;
+	}
+	iframe {
+	width:100%; height: 600px;
+}
+.col-lg-2 {
 		 font-size: 16px; padding: 8px; 
 	}
 	h2 {
 		font-size: 22px; padding: 6px;
 	}
-	
 }
-
-	@media screen and (max-width:1400px) {
-
+@media screen and (max-width:1400px) {
 	table, th, td {
 		font-size:11px;
 	}
-	
-}
+}	
 
 @media screen and (max-width:960px) {
 	.col-sm-12 {
@@ -31,6 +36,9 @@
 	}
 	h2 {
 		font-size: 20px; padding: 6px;
+	}
+		iframe {
+		height:400px;
 	}
 	
 }
@@ -43,12 +51,15 @@
 	h2 {
 		 font-size: 18px; padding: 6px;
 	}
+table, th, td {
+		font-size:11px;
+	}
 }
 	
 	
 body {
 	background-color: darkgreen; color: black; width: 90%; margin: auto; 
-	background-image: url("tausta.jpg"); background-repeat: repeat;
+	background-image: url("tausta.jpg"); background-repeat: repeat; margin-bottom: 200px;
 	
 
 }
@@ -108,6 +119,7 @@ li a:hover {
 .row {
 	text-align: left; background-color: darkslategray; color: white;
 }
+
 
 .col-sm-2 {
 	background-color: green; height: auto; display: block; padding-left: 2px;
@@ -187,6 +199,7 @@ color: white; text-align: center; margin-left: auto;
 .table {
 	overflow: auto;
 }
+
 
 
 
