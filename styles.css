@@ -1,5 +1,10 @@
 
+body {
+	background-color: darkgreen; color: black; width: 90%; margin: auto; 
+	background-image: url("tausta.jpg"); background-repeat: repeat; margin-bottom: 200px;
+	
 
+}
 	
 	h2 {
 		font-size: 22px; padding: 12px;
@@ -39,6 +44,9 @@ li a {
 }	
 
 @media screen and (max-width:960px) {
+	body {
+		width:100%;
+	}
 	.col-sm-12 {
 		 font-size: 14px; padding: 8px; 
 	}
@@ -72,12 +80,7 @@ table, th, td {
 }
 	
 	
-body {
-	background-color: darkgreen; color: black; width: 90%; margin: auto; 
-	background-image: url("tausta.jpg"); background-repeat: repeat; margin-bottom: 200px;
-	
 
-}
 
 p {
 	font-size: 16px;
@@ -209,6 +212,18 @@ color: white; text-align: center; margin-left: auto;
 	overflow: auto;
 }
 
+input[type=text] {
+
+  padding: 6px 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+  border-radius: 6px;
+}
+
+textarea {
+	resize: none; border: 1px solid black; border-radius: 6px;
+}
 
 
 
