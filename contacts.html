@@ -14,23 +14,44 @@
 <body>
 
 
-<ul>
-  <li><a class="active" href="index.html">Koti</a></li>
-  <li><a href="njapenluola.html">Njapen Luola</a></li>
-  <li><a href="meha.html">Mehä</a></li>
-  <li><a class="active" href="saurusalue.html">Saurukset</a></li>
-  
-</ul>
+<div class="nav">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+	aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Koti</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="njapenluola.html">Njapen Luola</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="meha.html">Mehä</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="saurusalue.html">Saurukset</a>
+		  <li class="nav-item">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contacts.html">Contacts</a>
+        </li>
+
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</div>
        
 	  
-       
-
-
-
-
 <div class="container-fluid">
  <div class="row">
-<div class="col-sm-12b">
+<div class="col-sm-12c">
 <h1>Contacts</h1>
 
 </div>
@@ -39,7 +60,50 @@
 
 <div class="container-fluid">
  <div class="row">
-    <div class="col-sm-12b col-md-12 col-lg-12 col-xl-2">
+
+	
+	<div class="col-sm-12 col-lg-12 col-xl-12">
+	<h2>Yhteystietoja</h2>
+
+<div class="container4">
+	<p>Nimi</p>
+	<input type="text" name="fname" required>
+
+
+	<p>Sähköposti</p>
+	<input type="text" name="email" required>
+	
+</div>
+
+<select class="form-select" aria-label="Piditkö sivustosta?">
+
+  <option selected>Tykkäsitkö sivustosta?</option>
+  <option value="1">Tykkäsin</option>
+  <option value="2">Neutraali</option>
+  <option value="3">En tykännyt</option>
+</select>
+</div>
+
+<form action="/action_page.php">
+
+ <label for="Tekstinsyöttö">Kirjoita palautetta:</label>
+ <textarea id="Tekstinsyöttö" name="teksti1" rows="4" cols="80">
+ </textarea>
+ <div class="checkbox">
+  <label><input type="checkbox" value="">Haluaisin vastauksen</label>
+  <p>Kiitoksia</p>
+</div>
+ <br>
+ <input type="submit" value="Lähetä palautetta">
+</form>
+
+<div class="col-sm-12 col-lg-12 col-xl-6">
+
+
+</div>
+<div class="col-sm-12b">
+	
+
 	<ul>
 	<li><h2>Linkkejä:</h2></li>
       <li><a href="https://en.wikipedia.org/wiki/Siamese_fighting_fish" target="_blank">Taistelukalat</a></li>
@@ -49,43 +113,21 @@
 	  <li><a href="https://www.gaia.com/article/who-are-the-pleiadians" target="blank">Pleiadeslaiset</a></li>
 	</ul>
     </div>
-	
-	<div class="col-sm-12 col-md-12 col-lg-12 col-xl-4">
-	<h2>Yhteystietoja</h2>
-	<div class="container2">
-	<p>Nimi</p>
-	<input type="text" name="fname" required>
-</div>
-<p>Sukunimi</p>
-	<input type="text" name="lname" required>
-</div>
-	<p>Sähköposti</p>
-	<input type="text" name="email" required>
-
-
-<form action="/action_page.php">
-<p>Tekstikenttä</p>
- <label for="Tekstinsyöttö">Tekstinsyöttö:</label>
- <textarea id="Tekstinsyöttö" name="teksti1" rows="4" cols="80">
- </textarea>
- <div class="checkbox">
-  <label><input type="checkbox" value="">Sign up for newsletter</label>
-  <p>Kiitoksia</p>
-</div>
- <br>
- <input type="submit" value="Add new user">
-</form>
-</div>
-<div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
-<p>gaoijaoegiij</p>
-
+	<div class="col-sm-12">
+	<h4>Sähköposti</h4>
+	<a href="mailto:lauri.kara@student.laurea.fi">lauri.kara@student.laurea.fi</a>
+  </div>
+  <div class="col-sm-12">
+	<p>Osa sivuston tiedosta on fiktiivistä. Njappe oli oikea taistelukala. In case of copyright infringement, contact me via email.</p>
+  </div>
 	
 	
 	
 	
 	
 	
-	
+	</div>
+	</div>
 	
 	
 	
