@@ -60,7 +60,7 @@ li a {
 		padding:10px;
 	}
 	h2 {
-		font-size: 20px; padding: 6px;
+		padding: 6px;
 	}
 		iframe {
 		height:400px;
@@ -88,7 +88,7 @@ padding: 8px; font-size:16px;
 	}
 	
 	h2 {
-		 font-size: 18px; padding-bottom: 0px;
+		 padding-bottom: 0px;
 	}
 table, th, td {
 		font-size:9px; overflow:hidden;
@@ -100,7 +100,7 @@ table, th, td {
 	}
 	
 	h2 {
-		 font-size: 18px; padding-bottom: 0px;
+		 padding-bottom: 0px;
 	}
 table, th, td {
 		font-size:8px; overflow:hidden;
@@ -112,7 +112,7 @@ table, th, td {
 	}
 	
 	h2 {
-		 font-size: 18px; padding-bottom: 0px;
+		padding-bottom: 0px;
 	}
 table, th, td {
 		font-size:7px; overflow:hidden;
@@ -129,7 +129,7 @@ p {
 
 
 h1 {
-	color:white; text-align: center; position: relative; top: 5px;
+	color:white; text-align: center; position: relative; top: 12px;
 }
 
 h3 {
@@ -287,5 +287,6 @@ textarea {
 }
 
 .carousel {
-	padding:10px;
+	padding: 10px;
 }
+	}
