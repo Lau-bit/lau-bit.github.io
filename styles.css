@@ -6,9 +6,7 @@ body {
 
 }
 	
-	h2 {
-		font-size: 22px; padding: 12px;
-	}
+
 
 
 
@@ -40,13 +38,7 @@ li a {
   padding: 16px 20px;
   text-decoration: none;
 }
-.col-lg-2 {
-		 font-size: 16px; padding: 8px; 
-	}
-	h2 {
-		font-size: 22px; padding: 6px;
-	}
-}
+
 @media screen and (max-width:1600px) {
 	table, th, td {
 		font-size:13px; overflow:auto;
