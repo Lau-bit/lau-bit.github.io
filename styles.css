@@ -99,10 +99,33 @@ padding: 8px; font-size:16px;
 		 font-size: 18px; padding-bottom: 0px;
 	}
 table, th, td {
-		font-size:10px; overflow:auto; margin:-10px;
+		font-size:9px; overflow:hidden;
 	}
 }
+@media screen and (max-width:320px) {
+	.col-sm-12 {
+		display: block; font-size: 16px; padding: 10px;
+	}
 	
+	h2 {
+		 font-size: 18px; padding-bottom: 0px;
+	}
+table, th, td {
+		font-size:8px; overflow:hidden;
+	}
+}
+	@media screen and (max-width:280px) {
+	.col-sm-12 {
+		display: block; font-size: 16px; padding: 10px;
+	}
+	
+	h2 {
+		 font-size: 18px; padding-bottom: 0px;
+	}
+table, th, td {
+		font-size:7px; overflow:hidden;
+	}
+}
 .col-sm-12 {
 	padding-top:10px;
 }
